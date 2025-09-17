@@ -3,7 +3,7 @@ import toast from "react-hot-toast"
 
 export default function TokenEncoding({ tokens, tokenIds }) {
   return (
-  <div className="bg-white p-4 rounded-2xl shadow dark:bg-gray-900 dark:text-gray-100">
+  <div className="bg-white p-4 rounded-2xl shadow ">
       <div className="flex justify-between items-center mb-2">
         <h2 className="font-bold text-lg text-orange-600">🔢 Token Encoding ({tokens.length})</h2>
         <button

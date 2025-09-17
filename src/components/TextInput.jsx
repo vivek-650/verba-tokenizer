@@ -1,6 +1,6 @@
 export default function TextInput({ inputText, setInputText }) {
   return (
-    <div className="bg-white p-4 rounded-2xl shadow dark:bg-gray-900 dark:text-gray-100">
+    <div className="bg-white p-4 rounded-2xl">
       <div className="flex justify-between items-center mb-2">
         <h2 className="font-bold text-lg text-orange-600">📝 Text Input</h2>
         <button

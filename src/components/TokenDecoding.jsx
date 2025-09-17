@@ -2,7 +2,7 @@ import { RotateCcw } from "lucide-react"
 
 export default function TokenDecoding({ decodeInput, setDecodeInput, decodedText, tokenIds }) {
   return (
-  <div className="bg-white p-4 rounded-2xl shadow dark:bg-gray-900 dark:text-gray-100">
+  <div className="bg-white p-4 rounded-2xl shadow ">
       <div className="flex justify-between items-center mb-3">
         <h2 className="font-bold text-lg text-orange-600">🔓 Token Decoding</h2>
         <button
