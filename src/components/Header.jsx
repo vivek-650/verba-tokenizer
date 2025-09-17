@@ -29,7 +29,7 @@ export default function Header() {
       {/* Title */}
       <div className="text-center md:text-left">
         <h1 className="text-2xl md:text-3xl font-bold text-gray-900">
-          <span className="text-purple-600">Verba</span> - Tokenizer Project
+          <span className="text-orange-600">Verba</span> - Tokenizer Project
         </h1>
         <p className="text-gray-600 text-sm md:text-base">
           Explore tokenization & decoding interactively.
@@ -40,10 +40,10 @@ export default function Header() {
       <div className="flex flex-wrap justify-center md:justify-end gap-3">
         {/* GitHub */}
         <a
-          href="https://github.com/vivek-650"
+          href="https://github.com/vivek-650/verba-tokenizer"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 px-3 py-2 border rounded-lg hover:bg-gray-50 text-sm md:text-base"
+          className="flex items-center gap-2 px-3 py-2 border rounded-lg hover:bg-gray-500 text-sm md:text-base"
         >
           <Github className="w-5 h-5" /> GitHub
         </a>
@@ -53,7 +53,7 @@ export default function Header() {
           href="https://linkedin.com/in/curiousvivek"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 px-3 py-2 border rounded-lg hover:bg-gray-50 text-sm md:text-base"
+          className="flex items-center gap-2 px-3 py-2 border rounded-lg hover:bg-blue-400 text-sm md:text-base"
         >
           <LinkedinIcon className="w-5 h-5" /> LinkedIn
         </a>

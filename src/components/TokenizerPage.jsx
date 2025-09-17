@@ -34,12 +34,12 @@ export default function TokenizerPage() {
   }, [decodeInput])
 
   return (
-  <div className="min-h-screen bg-gradient-to-br from-orange-200 to-yellow-200 p-4 border border-red-800">
+  <div className="min-h-screen bg-gradient-to-br from-orange-300 to-yellow-200 p-4">
       <div className="max-w-5xl mx-auto space-y-6">
         <Header />
 
         {/* Input + Encoding */}
-        <div className="grid lg:grid-cols-2 gap-6">
+        <div className="grid lg:grid-cols-2 gap-6 ">
           <TextInput inputText={inputText} setInputText={setInputText} />
           <TokenEncoding tokens={tokens} tokenIds={tokenIds} />
         </div>
