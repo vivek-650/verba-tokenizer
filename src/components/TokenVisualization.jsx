@@ -3,7 +3,7 @@ import { getTokenColor } from "../utils/tokenizer.js"
 
 export default function TokenVisualization({ tokens }) {
   return (
-    <div className="bg-white p-4 rounded-2xl shadow dark:bg-gray-900 dark:text-gray-100">
+    <div className="bg-white p-4 rounded-2xl shadow d">
       <h2 className="font-bold text-lg text-orange-600 mb-4">
         🎨 Token Visualization
       </h2>

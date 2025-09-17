@@ -22,7 +22,7 @@ export default function TokenDecoding({ decodeInput, setDecodeInput, decodedText
         className="w-full p-2 border rounded font-mono"
       />
       {decodedText && (
-  <div className="bg-green-50 border p-3 rounded mt-3 font-mono dark:bg-green-900 dark:text-green-100">{decodedText}</div>
+  <div className="bg-green-50 border p-3 rounded mt-3 font-mono ">{decodedText}</div>
       )}
     </div>
   )

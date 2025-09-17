@@ -21,13 +21,13 @@ export default function TokenEncoding({ tokens, tokenIds }) {
         <div className="flex flex-wrap gap-1 max-h-32 overflow-y-auto">
           
           {tokens.map((t, i) => (
-            <span key={i} className="bg-gray-100 px-2 py-1 text-xs rounded dark:bg-gray-800">
+            <span key={i} className="bg-gray-100 px-2 py-1 text-xs rounded ">
               "{t}" → {tokenIds[i]}
             </span>
           ))}
         </div>
         <p className="">Token Sequence: </p>
-        <div className="bg-gray-50 p-2 rounded text-sm font-mono dark:bg-gray-800">
+        <div className="bg-gray-50 p-2 rounded text-sm font-mono ">
           [{tokenIds.join(", ")}]
         </div>
       </div>
